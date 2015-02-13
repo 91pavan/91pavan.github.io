@@ -1,1 +1,1 @@
-# My own blog
+ My own blog for writing stuff
