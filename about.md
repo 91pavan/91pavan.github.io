@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+23 year old software engineer living in Bangalore and working full time. Interested in a lot of things but mainly big data, IoT, Analytics is really catching my attention.
 
-### More Information
+Graduated from Bachelors in 2013, looking into going back to college pretty soon.
 
-A place to include any other types of information that you'd like to include about yourself. 
+Get in touch with me, I'm pretty friendly :D
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[pavan0591@gmail.com](mailto:pavan0591@gmail.com)
