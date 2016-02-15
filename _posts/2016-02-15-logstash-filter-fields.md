@@ -7,7 +7,10 @@ Long time, no see folks! :)
 
 I will try hard to be punctual in writing blog posts from now!
 
+#### Problem statement begin
 We had a logstash consumer which would read data from multiple collectd agents and forward that to Kafka for further processing. 
+
+#### Problem statement end
 
 Thankfully, logstash has a `collectd` codec which makes our lives easy. In a nutshell, it reads events from the collectd binary protocol over the network via udp. If you want to find out more, go [here](https://www.elastic.co/guide/en/logstash/current/plugins-codecs-collectd.html)
 
@@ -17,7 +20,9 @@ But we hit a roadblock pretty quickly as different `collectd` plugins have diffe
 
 So, how do we store all the (un)known fields which collectd agents send?
 
-**Solution:** Read in the entire `event` hash object via the `ruby` filter and populate the `message` event with a json blob of all the fields.
+#### Solution
+
+Read in the entire `event` hash object via the `ruby` filter and populate the `message` event with a json blob of all the fields.
 
 Here's the code:
 
